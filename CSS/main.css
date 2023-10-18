@@ -1,0 +1,103 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    font-family: 宋体;
+    background-color: rgb(92, 224, 186);
+    height: 100%;
+     
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    border-right: 5px;
+    height: 10000px;
+    background-color: rgb(113, 225, 109);
+}
+header{
+    background-color: rgb(221, 246, 246);
+    display: flex;
+    justify-content: space-between;
+    border-right: 4px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.server{
+    width: 70px;
+    text-decoration: none;
+    border-right: solid 1px rgb(169, 160, 160);
+    border-left: solid 1px rgb(169, 160, 160);
+   
+}
+.login {
+    width: 70px;
+    text-decoration: none;
+    border-right: solid 1px rgb(169, 160, 160);
+    border-left: solid 1px rgb(169, 160, 160);
+    
+}
+ul {
+    display: flex;
+    margin: 0.1px;
+    list-style-type: none;
+    
+     
+}
+  a{
+    text-decoration: none;
+    height: auto;
+    width: auto;
+}
+.header{
+    border-right: solid 1px rgb(169, 160, 160);
+    border-left: solid 1px rgb(169, 160, 160);
+    height: 30px;
+    
+}
+a.headerli{
+    display: block;
+    height: 30px;
+    line-height: 15px;
+    line-height: 30px;
+}
+.nav-mechine ul{
+    display: flex;
+    flex-direction: column;
+   padding: 0;
+   height: 600px;
+   width: 100px;
+ 
+}
+.mechine-category-button{
+    display: block;
+    height: 40px;
+    width: auto;
+    line-height: 50px;
+    border-right: solid 1px rgb(53, 139, 197);
+    border-bottom: solid 1px rgb(19, 144, 87);
+    border-top: solid 1px rgb(19, 144, 87);
+    text-align: center;
+   
+}
+.category-tab{
+    display: block;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    line-height: 50px;
+   background-color: rgb(34, 220, 56);
+
+}
+
+
+.salesCar{
+    width: 50px;
+    height: auto;
+}
+
+.search-bar{
+     text-align: center;
+}
